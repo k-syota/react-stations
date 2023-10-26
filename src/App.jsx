@@ -29,7 +29,7 @@ export const App = () => {
       <button className="button" onClick={changeImage}>
         写真を更新
       </button>
-      <DogImage url={dogUrl} />
+      <DogImage imageUrl={dogUrl} />
     </>
   )
 }

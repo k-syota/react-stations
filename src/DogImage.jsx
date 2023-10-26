@@ -1,10 +1,10 @@
 // @ts-check
 
-export const DogImage = props => {
+export const DogImage = ({ imageUrl }) => {
   // const { url } = props
   return (
     <>
-      <img src={props.url} alt="サンプル画像" />
+      <img src={imageUrl} alt="サンプル画像" />
     </>
   )
 }
